@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgriund1"
+    tools:context=".admin">
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/welcome_admin"
+        android:textAllCaps="true"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_welcome"
+        android:layout_alignLeft="@+id/text_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="142dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:text="@string/add"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_add"
+        android:layout_alignLeft="@+id/button_add"
+        android:layout_marginLeft="-27dp"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/buttons"
+        android:padding="23dp"
+        android:text="@string/delete"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic" />
+</RelativeLayout>

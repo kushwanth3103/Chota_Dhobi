@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Chota Dhobi</string>
+    <string name="welcome">Welcome TO CHOTA DHOBI</string>
+    <string name="admin">Admin</string>
+    <string name="staff">Staff</string>
+    <string name="student">Student</string>
+    <string name="add">Add Student</string>
+    <string name="delete">Display Students</string>
+    <string name="welcome_admin">Welcome To ADMIN Portal</string>
+    <string name="go">Sign In</string>
+    <string name="user">Enter User Name</string>
+    <string name="password">Enter Password</string>
+    <string name="reg">Enter REG No</string>
+    <string name="quantity">Enter Quantity Of Clothes</string>
+    <string name="submit">Submit</string>
+    <string name="mob">Enter Mobile No</string>
+    <string-array name="data">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+
+</resources>
